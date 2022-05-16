@@ -6,7 +6,7 @@ import com.oop.design_pattern.creational.factory_method.mobile_impl.Samsung;
 import com.oop.design_pattern.creational.factory_method.mobile_impl.Sony;
 
 public class MobileFactory {
-    public Mobile getMobile(MobileTypes type) {
+    public String getMobile(MobileTypes type) {
         Mobile mb;
         if(type.equals(MobileTypes.SAMSUNG)) {
             mb = new Samsung();
@@ -15,7 +15,6 @@ public class MobileFactory {
         } else {
             mb = new Iphone();
         }
-
-        return mb;
+        return mb.createMobile ();
     }
 }
