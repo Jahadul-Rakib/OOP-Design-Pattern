@@ -1,9 +1,10 @@
 package com.oop.design_pattern.creational.factory_method.factory;
 
 import com.oop.design_pattern.creational.factory_method.enums.MobileTypes;
-import com.oop.design_pattern.creational.factory_method.mobile_impl.Iphone;
-import com.oop.design_pattern.creational.factory_method.mobile_impl.Samsung;
-import com.oop.design_pattern.creational.factory_method.mobile_impl.Sony;
+import com.oop.design_pattern.creational.factory_method.mobile.impl.Iphone;
+import com.oop.design_pattern.creational.factory_method.mobile.Mobile;
+import com.oop.design_pattern.creational.factory_method.mobile.impl.Samsung;
+import com.oop.design_pattern.creational.factory_method.mobile.impl.Sony;
 
 public class MobileFactory {
     public String getMobile(MobileTypes type) {
