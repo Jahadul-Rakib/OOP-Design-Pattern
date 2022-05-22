@@ -1,20 +1,14 @@
-package com.oop.design_pattern.rakib.creational.abstract_factory_pattern.bus_fectory.buses;
+package com.oop.design_pattern.rakib.creational.abstract_factory_pattern.factory.truck_factory.trucks;
 
-import com.oop.design_pattern.rakib.creational.abstract_factory_pattern.bus_fectory.Bus;
+import com.oop.design_pattern.rakib.creational.abstract_factory_pattern.factory.Car;
 
-public class FiftySitBus implements Bus {
+public class TenTonTruck implements Car {
     private String engine;
     private String otherIngredients;
-    private Integer totalSit;
 
     @Override
     public void setUpEngine(String engine) {
         this.engine = engine;
-    }
-
-    @Override
-    public void setUpSet(Integer totalSeat) {
-        this.totalSit = totalSeat;
     }
 
     @Override
@@ -23,11 +17,10 @@ public class FiftySitBus implements Bus {
     }
 
     @Override
-    public boolean testTruck() {
+    public void drive() {
         System.out.println ("Engine: " + this.engine);
-        System.out.println ("Total Sit: " + this.totalSit);
         System.out.println ("OtherIngredients: " + this.otherIngredients);
         System.out.println ("Truck Test Successful");
-        return true;
+        System.out.println ("driving the truck ten with ton goods");
     }
 }
