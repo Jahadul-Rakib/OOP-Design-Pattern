@@ -1,7 +1,7 @@
-package com.oop.design_pattern.creational.factory_method;
+package com.oop.design_pattern.rabbi.creational.factory_method;
 
-import com.oop.design_pattern.creational.factory_method.enums.MobileTypes;
-import com.oop.design_pattern.creational.factory_method.factory.MobileFactory;
+import com.oop.design_pattern.rabbi.creational.factory_method.enums.MobileTypes;
+import com.oop.design_pattern.rabbi.creational.factory_method.factory.MobileFactory;
 
 public class Main {
     public static void main(String[] args) {
