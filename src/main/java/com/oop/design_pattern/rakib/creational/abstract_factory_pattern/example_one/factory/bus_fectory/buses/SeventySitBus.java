@@ -1,6 +1,6 @@
-package com.oop.design_pattern.rakib.creational.abstract_factory_pattern.factory.bus_fectory.buses;
+package com.oop.design_pattern.rakib.creational.abstract_factory_pattern.example_one.factory.bus_fectory.buses;
 
-import com.oop.design_pattern.rakib.creational.abstract_factory_pattern.factory.Car;
+import com.oop.design_pattern.rakib.creational.abstract_factory_pattern.example_one.factory.Car;
 
 public class SeventySitBus implements Car {
     private String engine;

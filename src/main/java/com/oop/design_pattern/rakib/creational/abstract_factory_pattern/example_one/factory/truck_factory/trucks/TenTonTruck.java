@@ -1,8 +1,8 @@
-package com.oop.design_pattern.rakib.creational.abstract_factory_pattern.factory.truck_factory.trucks;
+package com.oop.design_pattern.rakib.creational.abstract_factory_pattern.example_one.factory.truck_factory.trucks;
 
-import com.oop.design_pattern.rakib.creational.abstract_factory_pattern.factory.Car;
+import com.oop.design_pattern.rakib.creational.abstract_factory_pattern.example_one.factory.Car;
 
-public class FiveTonTruck implements Car {
+public class TenTonTruck implements Car {
     private String engine;
     private String otherIngredients;
 
@@ -21,6 +21,6 @@ public class FiveTonTruck implements Car {
         System.out.println ("Engine: " + this.engine);
         System.out.println ("OtherIngredients: " + this.otherIngredients);
         System.out.println ("Truck Test Successful");
-        System.out.println ("driving the truck five with ton goods");
+        System.out.println ("driving the truck ten with ton goods");
     }
 }
