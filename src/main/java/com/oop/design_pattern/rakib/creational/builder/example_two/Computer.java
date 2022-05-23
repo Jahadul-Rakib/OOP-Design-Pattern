@@ -23,6 +23,18 @@ public class Computer {
         return screenSize;
     }
 
+    public void setHDD(String HDD) {
+        this.HDD = HDD;
+    }
+
+    public void setRAM(String RAM) {
+        this.RAM = RAM;
+    }
+
+    public void setScreenSize(String screenSize) {
+        this.screenSize = screenSize;
+    }
+
     @Override
     public String toString() {
         return "Computer{" +
