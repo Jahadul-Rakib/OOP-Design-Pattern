@@ -19,7 +19,7 @@ public class Singleton {
 
 // This is the perfect way to implement singleton pattern
 public class Singleton { // Explaining thread issue with the game of scrabble
-    public static Singleton firstInstance = null;
+    public static Singleton firstInstance = null; // We can use "public static volatile Singleton firstInstance" to fix thread issue
 
     String[] scrabbleLetters =
             {"a", "b", "c", "d", "e", "f", "g", "h",
